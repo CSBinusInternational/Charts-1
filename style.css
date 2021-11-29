@@ -1,0 +1,140 @@
+body { margin:0px; padding:0px; }
+
+/* header */
+header {
+    height: 360px;
+}
+.header-banner {
+    background-color: #333;
+    background-image: url('https://cdn.britannica.com/57/226157-050-95E2ACAB/RMS-Carpathia-famous-for-rescuing-Titanic-survivors.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+header h1 {
+    background-color: rgba(18,72,120, 0.8);
+    color: white;
+    padding: 0 1rem;
+    position: absolute;
+    top: 2rem; 
+    left: 2rem;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background: #292f36;
+}
+
+/* Content */
+.content h1 {
+    background-color: rgba(18,72,120, 0.8);
+    color: white;
+    text-align: center;
+}
+
+/* Graph */
+.graph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.graph a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    border: #333;
+    border-radius: 5px; 
+    background-color: #292f36;
+    width: 200px;
+    height: 200px;
+}
+
+.graph1 {
+    padding-right: 2rem;
+}
+
+.graph1 a{
+    background-image: url('https://www.researchgate.net/profile/Jan-Bieser/publication/333867743/figure/fig2/AS:771428257374208@1560934237674/Bar-chart-showing-the-number-of-observations-value-attribute-for-each-age-group-key.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graph1 a:hover{
+    color: white;
+    background-image: none;
+    background-color: rgba(18,72,120, 0.8);
+}
+
+.graph2 {
+    padding-right: 2rem;
+}
+
+.graph2 a{
+    background-image: url('https://d2mvzyuse3lwjc.cloudfront.net/doc/en/UserGuide/images/2D_B_and_W_Pie_Chart/2D_B_W_Pie_Chart_1.png?v=83139');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graph2 a:hover{
+    color: white;
+    background-image: none;
+    background-color: rgba(18,72,120, 0.8);
+}
+
+.graph3 {
+    padding-right: 2rem;
+}
+
+.graph3 a{
+    background-image: url('https://www.vuescript.com/wp-content/uploads/2018/11/Pure-CSS-Donut-Charts-For-Vue.js.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graph3 a:hover{
+    color: white;
+    background-image: none;
+    background-color: rgba(18,72,120, 0.8);
+
+}
+
+.graph4 {
+    padding-right: 2rem;
+}
+
+.graph4 a{
+    background-image: url('https://chartio.com/assets/057a5c/tutorials/charts/stacked-bar-charts/6dab292f5932ece67ebba89dd4454e3ba0d9447871042adbc3fb684bbdf8db73/stacked-bar-options-1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graph4 a:hover{
+    color: white;
+    background-image: none;
+    background-color: rgba(18,72,120, 0.8);
+}
+
+.graph5 a{
+    background-image: url('https://cdn.kicksdigital.com/depictdatastudio.com/2017/01/Depict-Data-Studio_Bar-Charts_Vertical-or-Horizontal_Horizontal-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.graph5 a:hover{
+    color: white;
+    background-image: none;
+    background-color: rgba(18,72,120, 0.8);
+}

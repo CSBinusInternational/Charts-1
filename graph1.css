@@ -1,0 +1,113 @@
+body { margin:0px; padding:0px; }
+
+/* Header */
+nav {
+    width: 100%;
+    height: 90px;
+    background: #292f36;
+}
+
+.buttons a{
+    padding-top: 2%;
+    padding-left: 1%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    background-color: rgba(8,72,120, 0.8);
+    width: 100px;
+    height: 50px;
+}
+
+nav h1 {
+    color: white;
+    font-size: 2rem;
+    position: absolute;
+    left: 8%;
+    padding: none;
+    bottom: auto;
+}
+
+.others {
+    top: 0;
+    left: 75%;
+    position: absolute;
+    display: flex;
+}
+
+.others a {
+    padding-top: 10%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 50px;
+}
+
+/* Graph */
+section h3 {
+    margin-left: 10%;
+    font-weight: bold;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    transform: translateX(-50%,-50%); 
+    width: 500px;
+    height: 400px;
+    background: transparent;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    display: flex;
+}
+
+.box .content {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.box .content .graph{
+    position: absolute;
+    width: 40px;
+    background-color: rgba(8,72,120, 1);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box .content .graph :before{
+    content: '';
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    left: 2px;
+    bottom: 0;
+}
+
+.box .content .graph :after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+.box .content .graph .amount {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
